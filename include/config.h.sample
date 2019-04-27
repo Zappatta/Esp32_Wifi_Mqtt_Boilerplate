@@ -1,0 +1,7 @@
+const char *ssid = "mywifissid";
+const char *password = "mywifipassword";
+const char *mqtt_server = "mymqttserver.example.com";
+const char *mqtt_user = "mqttserverusername";
+const char *mqtt_password = "mqttserverpassword";
+const char *mqtt_client_id = "MyAwsomeEsp32Client";
+const int mqtt_port = 13373;
