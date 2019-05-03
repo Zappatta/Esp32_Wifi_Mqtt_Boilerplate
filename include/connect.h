@@ -59,3 +59,14 @@ void connectToMqtt()
         }
     }
 }
+
+void ensure_connection(){
+    if (WiFi.status() != WL_CONNECTED)
+    {
+        connectToWifi();
+    }
+    else if (!client.connected())
+    {
+        connectToMqtt();
+    }
+}

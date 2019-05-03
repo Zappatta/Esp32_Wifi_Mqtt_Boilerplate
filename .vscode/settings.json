@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.osx": {
+        "PATH": "/Users/yoskesh/.platformio/penv/bin:/Users/yoskesh/.platformio/penv:/Users/yoskesh/.nodenv/shims:/Users/yoskesh/.nodenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
